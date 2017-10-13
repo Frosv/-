@@ -18,27 +18,27 @@
 
 “前端”基础有三种语言**HTML(超文本标记语言)**,**CSS(层叠样式表)**,**JavaScript(脚本语言)**
 
-下面将会开始举例说明,以效果加上代码的形式方便各位理解
+下面将会开始举例说明,以代码加上展示效果的形式方便各位理解
 
 > 1.HTML
 
-<h1>这个就是一个标准的H1标签,你现在看到的大小就是H1标签自带的字体大小</h1>
-
 ``` html
 <h1>这个就是一个标准的H1标签,你现在看到的大小就是H1标签自带的字体大小</h1>
 ```
 
-<h2>这是H2,方便大家与H1做对比</h2>
+<h1>这个就是一个标准的H1标签,你现在看到的大小就是H1标签自带的字体大小</h1>
 
 ``` html
 <h2>这是H2,方便大家与H1做对比</h2>
 ```
 
-<h3>这就是HTML标签的基础,在闭合标签里写上东西就会在浏览器里被展示(准确点叫“渲染”)出来</h3>
+<h2>这是H2,方便大家与H1做对比</h2>
 
 ``` html
 <h3>这就是HTML标签的基础,在闭合标签里写上东西就会在浏览器里被展示(准确点叫“渲染”)出来</h3>
 ```
+
+<h3>这就是HTML标签的基础,在闭合标签里写上东西就会在浏览器里被展示(准确点叫“渲染”)出来</h3>
 
 通过h1,h2,h3的简单对比可以很明显的在浏览器上看出字体大小的变化
 
@@ -46,21 +46,31 @@
 
 > 2.CSS
 
-<h3 style="color:red;">我的CSS是红色</h3>
-
 ``` html
 <h3 style="color:red;">我的CSS是红色</h3>
 ```
 
-<h3 style="color:blue;">我的CSS是蓝色</h3>
+<h3 style="color:red;">我的CSS是红色</h3>
 
 ``` html
 <h3 style="color:blue;">我的CSS是蓝色</h3>
 ```
 
-<h3 style="color:green;">我的CSS是绿色</h3>
+<h3 style="color:blue;">我的CSS是蓝色</h3>
 
 ``` html
 <h3 style="color:green;">我的CSS是绿色</h3>
 ```
+
+<h3 style="color:green;">我的CSS是绿色</h3>
+
+以上就是CSS的简单的功能,先给大家一个基础的概念,之后深入研究每个细节
+
+> 3.JavaScript
+
+``` html
+<button onclick="alert('hello')">点击我</button>
+```
+
+<button onclick="alert('hello')">点击我</button>
 
